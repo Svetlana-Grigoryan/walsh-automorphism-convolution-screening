@@ -24,5 +24,5 @@ lines=[]
 for p in files:
     h=hashlib.sha256(p.read_bytes()).hexdigest()
     lines.append(f'{h}  {p.relative_to(ROOT).as_posix()}')
-(ROOT/'SHA256SUMS').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+(ROOT/'SHA256SUMS').write_bytes(('\n'.join(lines)+'\n').encode('utf-8'))
 print('ALL_CHECKS_PASSED')

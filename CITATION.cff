@@ -1,5 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite this reproducibility package and the accompanying article."
+title: "Reproducibility package for Walsh-indexed automorphism-convolution linear layers"
+type: software
+authors:
+  - family-names: Episkoposian
+    given-names: Sergo A.
+    orcid: "https://orcid.org/0000-0002-8811-2247"
+  - family-names: Grigoryan
+    given-names: Svetlana A.
 version: 1.0.0
 date-released: 2026-08-02
 doi: "10.5281/zenodo.21770573"
 license: MIT
 repository-code: "https://github.com/Svetlana-Grigoryan/walsh-automorphism-convolution-screening"
+keywords:
+  - Walsh transform
+  - XOR convolution
+  - diffusion layers
+  - finite fields
+  - primary reconstruction
+  - cryptographic screening
