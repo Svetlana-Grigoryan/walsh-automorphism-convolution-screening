@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or data, please cite this reproducibility package and the accompanying article."
-title: "Reproducibility package for Walsh-indexed automorphism-convolution linear layers"
+title: "Reproducibility package for Recurrence and Primary Structure of Automorphism-Convolution Operators over Elementary Abelian 2-Groups"
 type: software
 authors:
   - family-names: Episkoposian
@@ -8,15 +8,17 @@ authors:
     orcid: "https://orcid.org/0000-0002-8811-2247"
   - family-names: Grigoryan
     given-names: Svetlana A.
+    orcid: "https://orcid.org/0009-0005-9198-2816"
 version: 1.0.0
 date-released: 2026-08-02
 doi: "10.5281/zenodo.21770573"
 license: MIT
 repository-code: "https://github.com/Svetlana-Grigoryan/walsh-automorphism-convolution-screening"
 keywords:
-  - Walsh transform
+  - elementary abelian 2-groups
+  - modular group algebras
   - XOR convolution
-  - diffusion layers
+  - automorphism-convolution operators
+  - primary decomposition
+  - finite linear dynamics
   - finite fields
-  - primary reconstruction
-  - cryptographic screening

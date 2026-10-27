@@ -1,54 +1,54 @@
-# Walsh-Indexed Automorphism–Convolution Linear Layers
+# Automorphism–Convolution Operators over Elementary Abelian 2-Groups
 
-Reproducibility package for the manuscript
+Reproducibility repository for the manuscript
 
-> **Exact Recurrence and Cryptographic Screening of Walsh-Indexed Automorphism–Convolution Layers**
+> **Recurrence and Primary Structure of Automorphism–Convolution Operators over Elementary Abelian 2-Groups**
 
 **Authors:** Sergo A. Episkoposian and Svetlana A. Grigoryan
 
 ## Reproducibility
 
-This repository contains the code and computational results used in the manuscript.
+This repository contains the code and exact finite computational results supporting the finite-field examples in the manuscript.
 
 The package reproduces:
 
-* the 240-shift Cauchy–Walsh census over the AES field;
-* the 16-coordinate binary census;
-* the nine binary recurrence classes;
-* branch numbers of the canonical representatives;
-* AES MixColumns and full AES byte-linear recurrence benchmarks.
+* the complete 240-shift Cauchy–Walsh census over the AES field;
+* the complete 16-coordinate binary census;
+* the nine binary recurrence signatures;
+* the nullity-growth profiles and projective orders reported in the manuscript;
+* the branch numbers of the selected displayed binary representatives.
+
+The repository also retains auxiliary AES linear-operator benchmark code for independent comparison and regression testing. These AES benchmark results are not required for the main mathematical results of the current manuscript.
 
 ## Run
 
-Install the required packages:
+Install the required packages with:
 
-```bash
-python -m pip install -r requirements.txt
-```
+    python -m pip install -r requirements.txt
 
-Run the complete verification:
+Run the complete verification with:
 
-```bash
-python run_all.py
-```
+    python run_all.py
 
 A successful run ends with:
 
-```text
-ALL_CHECKS_PASSED
-```
+    ALL_CHECKS_PASSED
 
-Generated results are stored in `results/`.
+Generated machine-readable results are stored in `results/`.
+
+## Computational scope
+
+The computational censuses complement the analytic results of the manuscript. They use exact finite-field arithmetic and exact Gaussian elimination; no statistical inference is involved.
+
+The displayed hexadecimal binary kernels are selected representatives of their recurrence signatures.
 
 ## Archive
 
-The reproducibility package corresponding to version **1.0.0** is archived on Zenodo:
+The reproducibility package corresponding to release **v1.0.0** is currently archived on Zenodo.
 
-**DOI:** https://doi.org/10.5281/zenodo.21770573
+**DOI:** 10.5281/zenodo.21770573
 
-GitHub repository:
-
-https://github.com/Svetlana-Grigoryan/walsh-automorphism-convolution-screening
+A synchronized updated release will be prepared after the current manuscript-specific verification changes are complete.
 
 ## License
 

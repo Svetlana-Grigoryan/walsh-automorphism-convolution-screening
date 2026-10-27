@@ -76,7 +76,7 @@ def run(out_csv: Path):
         (4,(10,14,16,16)):256,
     }
     assert dict(counter) == expected
-    canonical = {
+    representatives = {
         (2,(8,16,16,16)):0x0007,
         (2,(10,16,16,16)):0x0091,
         (2,(11,16,16,16)):0x9991,
@@ -93,7 +93,7 @@ def run(out_csv: Path):
         w=csv.writer(f)
         w.writerow(['order','profile','representative_hex','count','branch_number'])
         for key,count in sorted(counter.items()):
-            rep=canonical[key]
+            rep=representatives[key]
             b=branch_number(operator_rows(rep))
             assert b==expected_branch[rep]
             w.writerow([key[0],'-'.join(map(str,key[1])),f'{rep:04X}',count,b])
