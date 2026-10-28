@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.1 - Unreleased
+## 1.0.1 - 2026-10-28
 
 - Updated repository metadata to match the manuscript
   "Recurrence and Primary Structure of Automorphism-Convolution Operators over Elementary Abelian 2-Groups".

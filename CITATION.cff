@@ -9,9 +9,9 @@ authors:
   - family-names: Grigoryan
     given-names: Svetlana A.
     orcid: "https://orcid.org/0009-0005-9198-2816"
-version: 1.0.0
-date-released: 2026-08-02
-doi: "10.5281/zenodo.21770573"
+version: 1.0.1
+date-released: 2026-10-28
+doi: "10.5281/zenodo.22180270"
 license: MIT
 repository-code: "https://github.com/Svetlana-Grigoryan/walsh-automorphism-convolution-screening"
 keywords:

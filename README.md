@@ -44,11 +44,12 @@ The displayed hexadecimal binary kernels are selected representatives of their r
 
 ## Archive
 
-The reproducibility package corresponding to release **v1.0.0** is currently archived on Zenodo.
+The synchronized reproducibility package is version **v1.0.1**.
 
-**DOI:** 10.5281/zenodo.21770573
+**Zenodo DOI for v1.0.1:** 10.5281/zenodo.22180270
 
-A synchronized updated release will be prepared after the current manuscript-specific verification changes are complete.
+The previous version **v1.0.0** is available at DOI
+`10.5281/zenodo.21770573`.
 
 ## License
 
